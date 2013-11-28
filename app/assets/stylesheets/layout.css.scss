@@ -1,0 +1,41 @@
+$primary-color: #237CBE;
+$secondary-color: #F0F0F0;
+
+body {
+	margin:0;
+	padding:0;
+}
+
+header#page-header {
+  color: #F0F0F0; 
+  background: $primary-color;
+  padding: 5px;
+  border-bottom: 3px solid darken($primary-color, 10%);
+		 h1 {
+		  text-align: center;
+		  text-transform: uppercase;
+		} 
+}
+
+#page-header img {
+	float: left;
+	margin: 0 15px;
+	border: 3px solid #F0F0F0;
+}
+
+footer {
+	text-align: center; 
+	padding: 5px; 
+	color: #fff; 
+	background: #000;
+}
+
+footer a {
+	color: #fff; 
+}
+
+aside {
+  float: right; 
+  background: #F0F0F0; 
+  width: 200px;
+}
