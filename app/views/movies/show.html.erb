@@ -8,6 +8,9 @@
   <p>
     <%= @movie.description %>
   </p>
+
+  <p><%= link_to "Reviews", movie_reviews_path(@movie) %><br />
+    this moviw has <%= @movie.reviews.size %></p>
   
   <h3 class="no-rule">
     <%= @movie.rating %> &bull; <%= @movie.duration %> 
